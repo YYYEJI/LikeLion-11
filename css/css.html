@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+    <head>
+        <title>WEB1 - CSS</title>
+        <meta charset="utf-8">
+        <style>
+            body {
+                background-color: black;
+                color: white;
+
+                margin: 0px;
+            }
+            a {
+                color: red;
+                text-decoration: none;
+            }
+            h1 {
+                font-size: 50px;
+                text-align: center;
+
+                border-bottom: 1px solid white;
+                padding: 20px;
+            }
+            ol {
+                border-right: 1px solid white;
+                width: 100px;
+                margin: 0px;
+                padding: 20px;
+            }
+            #grid{
+                display: grid;
+                grid-template-columns: 150px 1fr;
+            }
+            /* screen width < 800px */
+            @media(max-width: 800px) {
+                #grid{
+                    display: block
+                }
+                ol {
+                    border-right: none;
+                }
+                h1 {
+                    border-bottom: none;
+                }
+            }
+        </style>
+    </head> 
+    <body>
+        <h1>WEB</h1>
+        <div id="grid">
+            <ol>
+                <li><a href="1.html">HTML</a></li>
+                <li><a href="2.html">CSS</a></li>
+                <li><a href="3.html">JavaScript</a></li>
+            </ol>
+        
+            <div>
+                <h2>CSS</h2>
+                <strong style="color:yellow">CSS (Cascading Style Sheets)</strong> is the language we use to style an HTML document.    
+            </div> 
+        </div>
+    </body>
+</html> 
