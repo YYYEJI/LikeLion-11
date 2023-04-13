@@ -1,5 +1,6 @@
 body {
     background-image: url("images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
 }   
 
 #box {
@@ -84,3 +85,8 @@ body {
     margin-top: 20px;
 }
 
+
+/* media query */
+@media (max-width: 800px) {
+
+}
