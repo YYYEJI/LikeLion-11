@@ -1,0 +1,92 @@
+body {
+    background-image: url("images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+}   
+
+#box {
+    width: 350px;
+    height: 500px;
+    border: 1px solid white;
+    border-radius: 30px;
+
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    margin:0 auto;
+    text-align: center;
+    overflow: hidden;
+    background-color: white;
+    
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+
+#title {
+    font-size: 25px;
+}
+
+#content, #cancel, #price, #year{
+    color: grey;
+}
+
+#content {
+    margin-bottom: 25px;
+}
+
+#payment {
+    width: 300px;
+    height: 40px;
+    border: 1px solid #2F38D7;
+    border-radius: 10px;
+
+
+    background-color: #2F38D7;
+    color: white;
+
+    margin-left: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+}
+
+#payment:active, #cancel:active {
+    position: relative;
+    top:1px;
+}
+
+#grid{
+    width: 300px;
+    height: 60px;
+
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+
+    border: 1px solid #F8F9FE;
+    border-radius: 10px;
+    margin-left: 20px;
+
+    background-color: #F8F9FE;
+	
+}
+
+#annual {
+    text-align: left;
+    margin-top: 10px;
+}
+
+#icon {
+    margin-left: 20px;
+    margin-top: 13px;
+}
+
+#change {
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+
+/* media query */
+@media (max-width: 800px) {
+
+}
